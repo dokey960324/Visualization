@@ -27,9 +27,17 @@
 - 用 figure.add() 将数据添加到图片中
 - 在文件的创建和渲染部分比较麻烦
 
-6. [Cufflinks](https://plot.ly/ipython-notebooks/cufflinks/)
-- 图表绘制更加容易
+6. [Cufflinks](https://github.com/santosjorge/cufflinks)
+- 方法统一，参数配置简单
+- 可以结合pandas的dataframe随意灵活地画图,可形容为pandas like visualization
 - 可生成令人惊叹的3D图表
+- [wx上的教程](https://mp.weixin.qq.com/s?__biz=MzA5NDk4NDcwMw==&mid=2651388130&idx=2&sn=5a638e9faff2432e998629c6b24bf7f5&chksm=8bba1872bccd9164c8584fb54716a452a1032ca5d8f3c0d441afd2bbb7b8f3bafaec3c08f8de&mpshare=1&scene=24&srcid=&sharer_sharetime=1565881771989&sharer_shareid=a9f97e3603452f2370ed13a9e54707a6&key=5c697a296e1d5a5c02acb61f10627190f137e4cd1dfc367ead811fbaf2d3a44d1b0f03b501e08af6cded9cd25943bf8c88439b4dd68d9865cd978083baf513e6f5777c8cf770e59132e04e422f39bc55&ascene=14&uin=MTg2MTEyNTMwMA%3D%3D&devicetype=Windows+10&version=62060833&lang=zh_CN&pass_ticket=%2FHDLBDilUmj8WcIiX8l1lDKPk0qC2mKCGvPluaPw352ntaWmj6fc1h7JNoQoAS5Z)
+```Python
+pip install cufflinks
+```
+```Python
+import cufflinks as cf
+```
 
 7. [Folium](https://python-visualization.github.io/folium/)
 - 建立在Python生态系统的数据优势和Leaflet.js库的映射优势之上。
@@ -38,10 +46,8 @@
 - 可以为Folium渲染的地图使用不同的地图图层，例如MapBox，OpenStreetMap和其他几个图层
 - 可以选择不同的地图投影
 
-8. [Altair + Vega]
+8. [pyecharts]
 
-9. [D3.js]
-- 用JS写代码
 
 ## Drag & Drop to Create Visualizations
 
